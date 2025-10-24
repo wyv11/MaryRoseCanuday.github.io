@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal autobiography website of Mary Rose O. Canuday - First year BIndTech Computer Technology student sharing my journey, passions, and dreams.">
+    <meta name="keywords" content="autobiography, college student, portfolio, personal website, Mary Rose Canuday">
+    <meta name="author" content="Mary Rose O. Canuday">
+    
+    <title>Mary Rose Canuday | My Autobiography</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">My Autobiography</a>
+            <button class="nav-toggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#goals" class="nav-link">Goals</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-image-container">
+                    <img src="profile_circle.png" alt="Profile photo of Mary Rose Canuday" class="hero-image">
+                </div>
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Mary Rose O. Canuday</span></h1>
+                <p class="hero-subtitle">Also known as <span class="nickname">"Mer"</span></p>
+                <div class="typewriter-container">
+                    <p class="typewriter-text" id="typewriterText"></p>
+                </div>
+                <div class="hero-info">
+                    <p><i class="fas fa-birthday-cake"></i> Born on May 02, 2007 in Lapu-Lapu City, Cebu</p>
+                    <p class="tagline">"Dreams big, naps bigger."</p>
+                </div>
+                <a href="#about" class="cta-button">Learn More About Me</a>
+            </div>
+        </section>
+
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Personal Background</h3>
+                        <p>I'm a first-year college student passionate about technology, creativity, and making meaningful connections. Growing up in Cebu, I've always been fascinated by how things work and love exploring new ideas.</p>
+                        
+                        <h3>My Interests</h3>
+                        <p>When I'm not buried in my books, you'll find me coding side projects, binge-watching anime, or searching online for new books to add to cart. I'm a huge fan of K-pop, love photography, and I'm constantly learning something new.</p>
+                        
+                        <h3>Personality Highlights</h3>
+                        <p>My friends describe me as an enthusiastic and curious person who loves learning and discovering new things. I enjoy meaningful conversations, but I also value quiet time to think and recharge. I'm always ready for an adventure. As an ambivert, books are my comfort zone and they help me explore ideas beyond my own world. I believe in working hard, staying humble, and finding joy in small moments.</p>
+                    </div>
+                </div>
+
+                <div class="family-section">
+                    <h3><i class="fas fa-home"></i> Family & Roots</h3>
+                    <p>My family is my foundation. We're a close-knit bunch of five - my hardworking parents, two siblings, and me. Sunday family dinners are sacred in our household, and my mom's adobo recipe is unbeatable.</p>
+                    
+                    <div class="traditions">
+                        <h4>Traditions That Shaped Me</h4>
+                        <ul>
+                            <li><strong>Noche Buena:</strong> Our Christmas Eve celebration taught me the value of togetherness</li>
+                            <li><strong>Sunday Mass:</strong> Family time combined with reflection and gratitude</li>
+                            <li><strong>Beach Trips:</strong> Annual family getaways that created my best childhood memories</li>
+                        </ul>
+                    </div>
+                    
+                    <p class="values">I carry forward values of <strong>respect</strong>, <strong>resilience</strong>, and <strong>bayanihan</strong> (community spirit) that my parents instilled in me.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section education-section">
+            <div class="container">
+                <h2 class="section-title">Education Journey</h2>
+                
+                <div class="education-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fas fa-school"></i></div>
+                        <div class="timeline-content">
+                            <h3>Primary Education</h3>
+                            <h4>Lo-ok Elementary School (2013-2019)</h4>
+                            <p>My elementary years laid the foundation for my curiosity and love for learning.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="timeline-content">
+                            <h3>Secondary Education</h3>
+                            <h4>Lo-ok National High School (2019-2023)</h4>
+                            <p>During junior high school, I started discovering my interests and developing my skills in various areas.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fas fa-laptop-code"></i></div>
+                        <div class="timeline-content">
+                            <h3>Upper Secondary Education</h3>
+                            <h4>Asian Learning Inc. (2023-2025)</h4>
+                            <h5>ICT Strand Major in Programming</h5>
+                            <p>I graduated with honors from the ICT strand Major in Programming, where I discovered my passion for programming. During senior high school, I enjoyed my time in the computer laboratory as I explored how computers and the internet world work.</p>
+                            <p><strong>Notable Achievement:</strong> Third place with my research team in ICT strand by section with our website project (Health Card System and Supply Medicine Inventory)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-icon"><i class="fas fa-university"></i></div>
+                        <div class="timeline-content">
+                            <h3>College - First Year</h3>
+                            <h4>BIndTech Major in Computer Technology</h4>
+                            <h5>Lapu-Lapu City College (2025-Present)</h5>
+                            <p><strong>Why I Chose This Program:</strong> I've always been fascinated by how technology shapes our world. Computer Technology gives me the tools to turn ideas into reality and solve real-world problems through code.</p>
+                            
+                            <div class="campus-life">
+                                <h4>Life on Campus</h4>
+                                <p><strong>Favorite Spots:</strong> The library (perfect study nook), the covered court during sunset, and the canteen's corner table where my friends and I hang out.</p>
+                                <p><strong>Favorite Subjects:</strong> Introduction to Information Technology and Computer Fundamentals</p>
+                                <p><strong>Funny Struggles:</strong> Trying to stay awake during 7 AM classes, surviving on instant noodles during hell week, and I say "I'll sleep early" then the book says "Plot twist."</p>
+                            </div>
+                            
+                            <div class="new-experiences">
+                                <h4>What I'm Learning About Myself</h4>
+                                <p>College has taught me that I'm more resilient than I thought, that it's okay to ask for help, and that some of my best friendships started with group projects I didn't want to do. I'm discovering that growth happens outside your comfort zone.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <h2 class="section-title">Skills & Hobbies</h2>
+                
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-code"></i></div>
+                        <h3>Programming</h3>
+                        <p>HTML/CSS, JavaScript, Java</p>
+                        <span class="skill-level">Intermediate</span>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-camera"></i></div>
+                        <h3>Photography</h3>
+                        <p>Landscape & Portrait Photography</p>
+                        <span class="skill-level">Hobby</span>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
+                        <h3>Digital Design</h3>
+                        <p>Figma, Canva, Basic Photoshop, Editing Apps</p>
+                        <span class="skill-level">Learning</span>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-music"></i></div>
+                        <h3>Music</h3>
+                        <p>Listening, Spotify Playlist Curator</p>
+                        <span class="skill-level">Passion</span>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-gamepad"></i></div>
+                        <h3>Gaming</h3>
+                        <p>Strategy Games, RPGs, Pixels, Simulator</p>
+                        <span class="skill-level">Enthusiast</span>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-pen"></i></div>
+                        <h3>Writing</h3>
+                        <p>Blogging, Creative Writing, Reading Books</p>
+                        <span class="skill-level">Developing</span>
+                    </div>
+                </div>
+
+                <div class="interests-section">
+                    <h3>What I Love</h3>
+                    <div class="interests-grid">
+                        <div class="interest-item">
+                            <i class="fas fa-film"></i>
+                            <h4>Movies & Series</h4>
+                            <p>Sci-fi, Horror, Crime Documentary, Noir, K-dramas, Children's Film, and Anime. Currently obsessed with Sakamoto Days and rewatching Young Sheldon.</p>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-headphones"></i>
+                            <h4>Music</h4>
+                            <p>K-pop (Blackpink, Aespa), Indie Pop, Alternative Rock, Underrated OPM. My Spotify Wrapped is always interesting.</p>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-book"></i>
+                            <h4>Reading</h4>
+                            <p>Fiction, Young adult literature, Philosophy, Philosophical Fiction, Manga, and the occasional self-help book when I'm feeling motivated.</p>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-running"></i>
+                            <h4>Sports & Fitness</h4>
+                            <p>Badminton, Home Workout, and Morning Jogs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="goals" class="section goals-section">
+            <div class="container">
+                <h2 class="section-title">Dreams & Ambitions</h2>
+                
+                <div class="goals-container">
+                    <div class="goal-category">
+                        <div class="goal-icon"><i class="fas fa-bullseye"></i></div>
+                        <h3>Short-Term Goals (This Year)</h3>
+                        <ul class="goals-list">
+                            <li><i class="fas fa-check-circle"></i> Pass all my subjects (both major and minor)</li>
+                            <li><i class="fas fa-check-circle"></i> Build at least 3 personal coding projects</li>
+                            <li><i class="fas fa-check-circle"></i> Learn more programming languages</li>
+                            <li><i class="fas fa-check-circle"></i> Be more confident speaking up in class or group work</li>
+                            <li><i class="fas fa-check-circle"></i> Improve my skills in Industrial Technology step by step, especially in hands-on tasks</li>
+                            <li><i class="fas fa-check-circle"></i> Learn at least one new tool or software that can help in my course</li>
+                            <li><i class="fas fa-check-circle"></i> Read more books this year than I did last year</li>
+                            <li><i class="fas fa-check-circle"></i> Take care of my mental health by giving myself time to recharge</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="goal-category">
+                        <div class="goal-icon"><i class="fas fa-rocket"></i></div>
+                        <h3>Long-Term Ambitions</h3>
+                        <ul class="goals-list">
+                            <li><i class="fas fa-star"></i> Continue learning new technologies even after graduation</li>
+                            <li><i class="fas fa-star"></i> Create apps or tools that make a positive impact on people's lives</li>
+                            <li><i class="fas fa-star"></i> Gain experience through work opportunities that help me grow</li>
+                            <li><i class="fas fa-star"></i> Become a skilled and reliable professional in the Industrial Technology field</li>
+                            <li><i class="fas fa-star"></i> Support my family and give back to the people who believe in me</li>
+                            <li><i class="fas fa-star"></i> Travel and experience different places, cultures, and ideas</li>
+                            <li><i class="fas fa-star"></i> Achieve financial stability while still doing what I enjoy</li>
+                            <li><i class="fas fa-star"></i> Live a life that feels fulfilling, not just busy</li>
+                            <li><i class="fas fa-star"></i> Stay true to myself no matter how far I go</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="inspiration">
+                    <h3><i class="fas fa-lightbulb"></i> Who Inspires Me</h3>
+                    <p>I get my inspiration from the people who never give up, even when life gets complicated. My family and friends keep me grounded and remind me why I'm working hard for my future. I look up to those who build things with purpose, from simple tools to big innovations that change lives. Books also inspire me, especially the stories that show how ordinary people can become extraordinary step by step. Every small success, every lesson learned, and every challenge I overcome gives me the motivation to keep going and believe that I can create something meaningful too.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="milestones" class="section milestones-section">
+            <div class="container">
+                <h2 class="section-title">Milestones & Achievements</h2>
+                
+                <div class="milestones-grid">
+                    <div class="milestone-card">
+                        <div class="milestone-year">2023</div>
+                        <h3>Started Senior High School Journey</h3>
+                        <p>Chose ICT major in Programming strand despite everyone looking down on that strand. Best decision ever!</p>
+                    </div>
+                    
+                    <div class="milestone-card">
+                        <div class="milestone-year">2024</div>
+                        <h3>ICT Month Event</h3>
+                        <p>Won third place with my research team in ICT strand by section with our website project (Health Card System and Supply Medicine Inventory).</p>
+                    </div>
+                    
+                    <div class="milestone-card">
+                        <div class="milestone-year">2025</div>
+                        <h3>Graduated with Honors</h3>
+                        <p>Completed senior high school with honors and multiple awards.</p>
+                    </div>
+                    
+                    <div class="milestone-card">
+                        <div class="milestone-year">2025</div>
+                        <h3>College Acceptance</h3>
+                        <p>Got accepted into Lapu-Lapu City College's BIndTech major in Computer Technology program.</p>
+                    </div>
+                    
+                    <div class="milestone-card">
+                        <div class="milestone-year">2025</div>
+                        <h3>Second Coding Project</h3>
+                        <p>Built my second full website (as I built my first full website for movie when I graduated senior high school) using HTML, CSS, and JavaScript.</p>
+                    </div>
+                </div>
+
+                <div class="challenges-section">
+                    <h3><i class="fas fa-mountain"></i> Challenges That Made Me Stronger</h3>
+                    <div class="challenge-item">
+                        <h4>Adjusting to College Life</h4>
+                        <p>New environment, new expectations, new faces. Every day pushes me to step out of my comfort zone and grow a little braver.</p>
+                    </div>
+                    <div class="challenge-item">
+                        <h4>Overcoming Imposter Syndrome</h4>
+                        <p>Walking into my first class, I felt like everyone was smarter than me. Through hard work and asking for help when needed, I learned that everyone starts somewhere.</p>
+                    </div>
+                    <div class="challenge-item">
+                        <h4>Learning Technical Skills</h4>
+                        <p>Not everything works on the first try. Mistakes in the workshop remind me that progress is built through patience and practice.</p>
+                    </div>
+                    <div class="challenge-item">
+                        <h4>Managing Self-Doubt</h4>
+                        <p>There are moments when I question my abilities, but pushing through those thoughts shows me that I'm stronger than I think.</p>
+                    </div>
+                    <div class="challenge-item">
+                        <h4>Becoming More Independent</h4>
+                        <p>Making my own decisions isn't always easy, but each one helps me shape a better version of myself.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fun-facts" class="section fun-facts-section">
+            <div class="container">
+                <h2 class="section-title">Fun Facts About Me</h2>
+                
+                <div class="fun-facts-grid">
+                    <div class="fact-card">
+                        <i class="fas fa-book-open"></i>
+                        <p>"I say 'one more chapter' then suddenly it's 3 AM and the plot owns my life."</p>
+                    </div>
+                    
+                    <div class="fact-card">
+                        <i class="fas fa-camera-retro"></i>
+                        <p>"I proudly collect photos of sunsets, cats, and random clouds like they're rare treasures."</p>
+                    </div>
+                    
+                    <div class="fact-card">
+                        <i class="fas fa-book"></i>
+                        <p>"I can spend hours in a bookstore without noticing time pass."</p>
+                    </div>
+                    
+                    <div class="fact-card">
+                        <i class="fas fa-headphones"></i>
+                        <p>"My comfort activity: headphones on, world off."</p>
+                    </div>
+                    
+                    <div class="fact-card">
+                        <i class="fas fa-masks-theater"></i>
+                        <p>"I'm an ambivert who wants to go out, then wants to go home… at the same time."</p>
+                    </div>
+                    
+                    <div class="fact-card">
+                        <i class="fas fa-heart"></i>
+                        <p>"I get emotionally attached to fictional characters faster than I should."</p>
+                    </div>
+                    
+                    <div class="fact-card">
+                        <i class="fas fa-folder-open"></i>
+                        <p>"I try to be organized, but my desk has its own chaotic personality."</p>
+                    </div>
+                </div>
+
+                <div class="bucket-list">
+                    <h3><i class="fas fa-list-check"></i> Bucket List</h3>
+                    <div class="bucket-list-grid">
+                        <div class="bucket-item">🎹 Learn to play piano and guitar</div>
+                        <div class="bucket-item">✈️ Visit new places and experience different cultures</div>
+                        <div class="bucket-item">🌌 Go stargazing far away from city lights</div>
+                        <div class="bucket-item">🎤 Attend a concert of my favorite artist</div>
+                        <div class="bucket-item">🗣️ Learn a new language for future travels</div>
+                        <div class="bucket-item">💻 Build or design something meaningful in my field</div>
+                        <div class="bucket-item">🔧 Master a useful tool or software in Industrial Technology</div>
+                        <div class="bucket-item">📖 Finish an entire book series with full emotional commitment</div>
+                        <div class="bucket-item">🏖️ Travel with my family to a dream destination</div>
+                        <div class="bucket-item">💰 Save money for a solo adventure or a dream gadget</div>
+                        <div class="bucket-item">🎯 Conquer at least one fear that holds me back</div>
+                        <div class="bucket-item">🎲 Try a spontaneous activity without overthinking</div>
+                        <div class="bucket-item">🎨 Discover a new hobby that makes me happy</div>
+                        <div class="bucket-item">🍳 Learn to cook a signature dish I can proudly share</div>
+                        <div class="bucket-item">📚 Visit a bookstore in every new city I explore</div>
+                        <div class="bucket-item">🐱 Meet as many friendly cats as possible in this lifetime</div>
+                    </div>
+                </div>
+
+                <div class="life-motto">
+                    <h3><i class="fas fa-quote-left"></i> Life Motto</h3>
+                    <blockquote>
+                        "I want to live and feel all the shades, tones, and variations of experience… even if I am horribly limited." — Sylvia Plath
+                    </blockquote>
+                    <p class="motto-explanation">This reminds me that I don't need to silence my emotions or fit myself into a smaller version of who I am. It's okay to crave more from life — more depth, more feeling, more meaning. I may not be limitless… but I can still explore every part of the life I do have. To feel deeply is not a weakness — it's proof that I'm truly alive. And even if I stumble under the weight of it all, I'll keep reaching, learning, and expressing what my heart cannot contain.</p>
+                </div>
+            </div>
+        </section>
+
+<section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="contact-intro">Feel free to reach out! Whether you want to collaborate, chat about tech, or just say hi - I'd love to hear from you.</p>
+                
+                <div class="contact-content">
+                    <div class="contact-form-container">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="error-message" id="nameError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                                <span class="error-message" id="messageError"></span>
+                            </div>
+                            
+                            <button type="submit" class="submit-btn">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                            <div class="form-success" id="formSuccess">Message sent successfully! I'll get back to you soon.</div>
+                        </form>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <div class="social-links">
+                            <h3>Connect With Me</h3>
+                            <div class="social-icons">
+                                <a href="https://web.facebook.com/maryroseorio7" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="https://www.instagram.com/sehnsuchtzu/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://x.com/_misstrngr" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://www.tiktok.com/@misstrgr" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+                                    <i class="fab fa-tiktok"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <a href="mailto:maryrosecanuday@gmail.com">maryrosecanuday@gmail.com</a>
+                                    <br>
+                                    <a href="mailto:canuday.maryrose@llcc.edu.ph">canuday.maryrose@llcc.edu.ph</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>Lapu-Lapu City, Cebu, Philippines</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Mary Rose Canuday. Built with <i class="fas fa-heart"></i> stress and lots of coffee.</p>
+            <p class="footer-note">This website is part of my journey as a first-year BIndTech Computer Technology student. Thanks for visiting!</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
